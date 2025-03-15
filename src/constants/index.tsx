@@ -1,4 +1,4 @@
-import { featurebullets } from "../../types";
+import { featurebullets } from "../types";
 
 export const navItems = [
   { label: "Commands", href: "#commands" },

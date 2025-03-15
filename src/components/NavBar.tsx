@@ -123,7 +123,6 @@ const NavBar = () => {
             <textarea
               placeholder="Your suggestion"
               className="w-full p-4 text-lg border rounded-xl mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              rows="5"
               value={suggestion}
               onChange={(e) => setSuggestion(e.target.value)}
             />

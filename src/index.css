@@ -8,6 +8,8 @@
 :root {
   font-family: "Poppins", "sans-serif";
   color-scheme: dark;
+  background-color: #121212; /* or your preferred dark shade */
+  color: #ffffff;
 }
 
 .scrollbar-thin::-webkit-scrollbar {

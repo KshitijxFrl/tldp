@@ -56,7 +56,7 @@ const Cards = () => {
       className="w-full py-[5rem] px-4 bg-dark mt-11"
     >
       <motion.h2
-        className="text-5xl font-bold text-center text-white"
+        className="text-5xl font-bold text-center text-white flex justify-center items-center gap-3 mt-4"
         variants={fadeInOut}
         initial="hidden"
         animate={controls}
@@ -64,14 +64,14 @@ const Cards = () => {
         Download{" "}
         <span className="bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text">
           Tochi
-        </span>{" "}
-        <span className="bg-red text-sm px-4 border-3 border-orange-700 rounded-full">
-          v 1.0.0
+        </span>
+        <span className="text-base px-3 py-1 border border-orange-500 rounded-full bg-neutral-800 font-semibold align-middle">
+          v1.0.0
         </span>
       </motion.h2>
 
       {/* Cards */}
-      <div className="max-w-[1200px] mx-auto grid md:grid-cols-3 py-10 gap-8">
+      <div className="max-w-[1200px] mx-auto grid md:grid-cols-3 py-10 gap-8 mt-10">
         {[
           { name: "Windows", img: Windows },
           { name: "Linux", img: Linux },
@@ -140,10 +140,11 @@ const Cards = () => {
                   Use these commands to install Tochi
                 </div>
                 <div className="bg-neutral-800 p-3 rounded-md font-mono text-sm mb-2">
-                  sudo apt update && sudo apt install tochi
+                  wget
+                  https://github.com/KshitijxFrl/tochiDB/releases/download/v1.0.0/tochi-deb.deb
                 </div>
                 <div className="bg-neutral-800 p-3 rounded-md font-mono text-sm">
-                  tochi init && tochi start
+                  sudo dpkg -i tochi-deb.deb
                 </div>
               </>
             )}

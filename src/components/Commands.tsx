@@ -41,7 +41,7 @@ const Commands = () => {
     <div
       id="commands"
       ref={ref}
-      className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-6 py-12 mt-35"
+      className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-6 py-12 mt-30"
     >
       {/* Left Section: Title with Fade In & Out */}
       <motion.div

@@ -38,7 +38,7 @@ const Cards = () => {
     // Trigger download for Windows only
     if (card === "Windows") {
       const link = document.createElement("a");
-      link.href = "/path/to/tochi-installer-windows.exe"; // replace with actual file path
+      link.href = "../downloads/tochi-windows/tochisetup.exe";
       link.download = "tochi-installer-windows.exe";
       document.body.appendChild(link);
       link.click();

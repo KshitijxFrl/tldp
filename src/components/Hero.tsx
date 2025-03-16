@@ -18,7 +18,7 @@ const Hero = () => {
           />
         </div>
         <p className="md:text-2xl text-xl font-bold text-gray-500">
-          An agentic way for the fast paced mordern day backend systems
+          An intelligent way for the fast paced mordern day backend systems
         </p>
       </div>
     </div>

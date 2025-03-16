@@ -39,7 +39,7 @@ const Cards = () => {
     if (card === "Windows") {
       const link = document.createElement("a");
       link.href =
-        "https://github.com/KshitijxFrl/tochiDB/releases/latest/download/tochisetup.exe";
+        "https://github.com/KshitijxFrl/tochiDB/releases/download/v1.0.0/tochisetup.exe";
       link.download = "tochisetup.exe";
       document.body.appendChild(link);
       link.click();

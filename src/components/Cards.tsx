@@ -38,7 +38,8 @@ const Cards = () => {
     // Trigger download for Windows only
     if (card === "Windows") {
       const link = document.createElement("a");
-      link.href = "tldp/downloads/tochi-windows/tochisetup.exe";
+      link.href =
+        "https://github.com/KshitijxFrl/tochiDB/releases/latest/download/tochisetup.exe";
       link.download = "tochisetup.exe";
       document.body.appendChild(link);
       link.click();

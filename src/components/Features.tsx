@@ -2,7 +2,6 @@ import { CheckCircle2 } from "lucide-react";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import sampleVideo from "../assets/sampleVideo.mp4";
 import { checklistItems } from "../constants";
 
 // Animation Variants
@@ -58,11 +57,12 @@ const Features = () => {
           variants={fadeInOut}
         >
           <div className="relative w-full max-w-lg">
-            <video
-              src={sampleVideo}
-              controls
-              className="rounded-3xl w-full h-auto border border-white-500 hover:scale-105 duration-300 drop-shadow-[0_0_5px_rgba(255,255,255,0.8)]"
-              style={{ maxHeight: "500px", objectFit: "cover" }} // Ensures video retains shape
+            <iframe
+              src="https://www.youtube.com/embed/02VwxJEwt_U"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="rounded-3xl w-full h-[300px] sm:h-[400px] lg:h-[350px] border border-white-500 hover:scale-105 duration-300 drop-shadow-[0_0_5px_rgba(255,255,255,0.8)]"
             />
           </div>
         </motion.div>

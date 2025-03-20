@@ -49,7 +49,7 @@ const NavBar = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
               <img className="h-6 w-6 mr-2" src={tcurve} alt="Logo" />
-              <span className="text-xl tracking-tight font-bold">TOCHI</span>
+              <span className="text-xl tracking-tight font-bold">Tochi DB</span>
             </div>
             <ul className="hidden lg:flex ml-30 space-x-12">
               {navItems.map((item, index) => (
